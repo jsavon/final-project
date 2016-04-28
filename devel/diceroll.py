@@ -63,6 +63,8 @@ while True:
  print("Press enter to roll again")
  input()
 
+ number=random.randint(1,6)
+
  if number==1:
    print("You rolled a one!")
    print("[----------]")
